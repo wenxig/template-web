@@ -50,5 +50,4 @@ const app = createApp(
 app.use(router)
 const pinia = createPinia()
 app.use(pinia)
-init()
 app.mount("#app")

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { SpeedInsights } from "@vercel/speed-insights/vue"
-import { useDialog, useLoadingBar, useMessage } from 'naive-ui'
+import { useDialog, useLoadingBar, useMessage, useThemeVars } from 'naive-ui'
 window.$message = useMessage()
 window.$loading = useLoadingBar()
 window.$dialog = useDialog()
